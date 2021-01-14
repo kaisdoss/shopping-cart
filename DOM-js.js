@@ -55,15 +55,15 @@ btnMinus.forEach((minus) => {
 });
 
 
-// function totalSumP1() {
-//   let totalp = [];
-//   let pricesp = Array.from(document.querySelectorAll(".pr"));
-//   let quantitiesp = Array.from(document.querySelector("#quantity1"));
-//   for (let i = 0; i < pricesp.length; i++) {
-//     totalp.push(pricesp[i].innerHTML * quantitiesp[i].innerHTML);
-//     sumP1.innerHTML = totalp.reduce((a, b) => a + b)+ "$";
-//   }
-// }
+function totalSumP1() {
+  let totalp = [];
+  let pricesp = Array.from(document.querySelectorAll(".pr"));
+  let quantitiesp = Array.from(document.querySelector("#quantity1"));
+  for (let i = 0; i < pricesp.length; i++) {
+    totalp.push(pricesp[i].innerHTML * quantitiesp[i].innerHTML);
+    sumP1.innerHTML = totalp.reduce((a, b) => a + b)+ "$";
+  }
+}
 
 
 function totalSum() {
