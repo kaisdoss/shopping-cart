@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <link rel="stylesheet" href="DOM-css.css" />
+    <script
+      src="https://kit.fontawesome.com/40518ee3be.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="carts">
+      <table>
+        <tr>
+          <th>like</th>
+          <th>Produit</th>
+          <th>Quantity</th>
+          <th>Prices</th>
+        </tr>
+        <!-- produit-1 -->
+        <tr>
+          <td>
+            <i class="far fa-heart"></i>
+          </td>
+          <td>
+            <div class="produit-info">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTntnu4inch8egiS7smLz0A0279ciPyUJFVpg&usqp=CAU"
+                alt=""
+              />
+
+              <div class="description">
+                <h4>Game of thrones T-shirt</h4>
+                <p class="price">Price:<span class="pr">30</span></p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <form>
+              <button class="button1"  type="button">+</button>
+              <span class="quantity" id="quantity1" >0</span>
+              <button class="button-1" type="">-</button>
+              <button class="btn-reset" type="reset">Remove</button>
+            </form>
+          </td>
+          <td><h3 class="price-h3 pro1" id="">30<span>$</span></h3></td>
+        </tr>
+        <!-- prduit-2 -->
+        <tr>
+          <td>
+            <i class="far fa-heart"></i>
+          </td>
+          <td>
+            <div class="produit-info">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl5yxVaN2z5LY78IEtGvemPi7zOAh6jYGFnA&usqp=CAU"
+                alt=""
+              />
+
+              <div class="description">
+                <h4>Breaking bad T-shirt</h4>
+                <p class="price">Price:<span class="pr">35</span></p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <form>
+              <button class="button1" type="button">+</button>
+              <span class="quantity" id="quantity2">0</span>
+              <button class="button-1" type="">-</button>
+              <button class="btn-reset" type="reset">Remove</button>
+            </form>
+          </td>
+          <td><h3 class="price-h3 p2">35<span>$</span></h3></td>
+        </tr>
+        <!-- prduit-3 -->
+        <tr>
+          <td>
+            <i class="far fa-heart"></i>
+          </td>
+          <td>
+            <div class="produit-info">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRujnpY813nL4m9dSZ301Gj_DH8stI6CjEMjg&usqp=CAU"
+                alt=""
+              />
+
+              <div class="description">
+                <h4>Dexter T-shirt</h4>
+                <p class="price">Price:<span class="pr">25</span></p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <form>
+              <button class="button1" type="button">+</button>
+              <span class="quantity" id="quantity3">0</span>
+              <button class="button-1" type="">-</button>
+              <button class="btn-reset" type="reset">Remove</button>
+            </form>
+          </td>
+          <td><h3 class="price-h3 p3">25<span>$</span></h3></td>
+        </tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>
+          <hr />
+          <h3 >Total: <p class="total">25</p> </h3>
+        </td>
+
+        <tr></tr>
+      </table>
+    </div>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <script src="DOM-js.js"></script>
+  </body>
+</html>
